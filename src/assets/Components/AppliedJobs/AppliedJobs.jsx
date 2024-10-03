@@ -33,7 +33,7 @@ const [appliedJobType, setAppliedJobType] = useState('Empty');
       setAppliedJobs(filterJobs);
       setDisplayJobs(filterJobs);
       console.log(filterJobs)
-      if (filterJobs.length>1) {
+      if (filterJobs.length>=1) {
         setAppliedJobType('All')
       }
     // console.log(jobs, storedJobs, filterJobs);
